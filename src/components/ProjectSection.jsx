@@ -5,7 +5,7 @@ const ProjectSection = () => {
     <div className="p-4" id="Projects">
       <div className="space-y-12">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-semibold mb-4">Projects</h2>
+        <h2 className="text-4xl font-semibold mb-4">Projects</h2>
       </div>
         <div className="flex flex-col sm:flex-row items-center">
           <div className="flex flex-col items-center p-6  w-full sm:w-full md:w-96 lg:w-96 ml-16 mb-6 sm:mb-0">
@@ -130,7 +130,6 @@ const ProjectSection = () => {
         </div>
 
       </div>
-      <div className="mb-12"></div>
     </div>
     
   );
