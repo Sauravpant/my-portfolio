@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.899);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-text {
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  border-right: 2px solid;
+  letter-spacing: 0.135rem;
+  display: inline-block;
+  animation: typing 2s steps(11), cursor 0.4s step-end infinite alternate;
+  overflow: hidden;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.tags-container {
+  gap: 0.5rem;
+  animation: fadeInTags 2.5s ease-in-out forwards;
+}
+
+.tag {
+  font-weight: 600;
+  animation: fadeInTag 2.5s ease-out forwards;
+  opacity: 0.3; 
+}
+
+.dot {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@keyframes fadeInTags {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInTag {
+  0% {
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.4); 
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    color: rgba(255, 255, 255, 1); 
+    transform: scale(1);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .tags-container {
+    flex-direction: column;
+  }
+}
+.social-icon {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.social-icon i {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px 4px rgba(255, 255, 255, 0.8); 
+}
+
+.social-icon:hover i {
+  color: #fff; 
+}
+@media (max-width: 768px) {
+  .social-icon {
+    padding: 10px;
+  }
+}
