@@ -4,7 +4,9 @@ const SkillSection = () => {
   return (
     <div className="px-6 sm:px-20">
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-semibold mb-5">Tech Stacks</h2>
+        <h2 className="text-4xl font-semibold mb-5">
+          Languages, Frameworks & Tools
+        </h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-1">
         <div className="flex flex-col items-center p-4 border-2 border-black w-full sm:w-72 md:w-64 lg:w-56 h-auto min-h-[320px]">
@@ -98,7 +100,6 @@ const SkillSection = () => {
           </div>
         </div>
 
-        {/* Tools Section */}
         <div className="flex flex-col items-center p-4 border-2 border-black w-full sm:w-72 md:w-64 lg:w-56 h-auto min-h-[320px]">
           <h3 className="text-3xl font-semibold mb-4">Tools</h3>
           <div className="flex flex-wrap justify-center gap-3">

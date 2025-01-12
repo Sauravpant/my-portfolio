@@ -31,13 +31,14 @@ const AboutSection = () => {
             I am currently diving into <strong>Competitive Programming </strong>
             while focusing on the <strong>MERN Stack</strong> (MongoDB, Express,
             React, Node.js) for backend development. Alongside this, I am
-            working on a <strong>Data Structure Visualizer Project</strong> to
-            deepen my understanding of algorithms and improve my practical
-            coding skills. My goals include strengthening my expertise in the
-            MERN stack and competitive programming. Additionally, I am expanding
-            my knowledge in <strong> DevOps</strong> and scalable system design
-            to further enhance my technical proficiency and prepare for advanced
-            challenges in full-stack development
+            working on a <strong>Data Structure Visualizer Project</strong>{" "}
+            using MERN Stack to deepen my understanding of algorithms and improve
+            my practical coding skills. My goals include strengthening my
+            expertise in the MERN stack and competitive programming.
+            Additionally, I am expanding my knowledge in{" "}
+            <strong> DevOps</strong> and scalable system design to further
+            enhance my technical proficiency and prepare for advanced challenges
+            in full-stack development
           </p>
         </div>
       </div>

@@ -20,7 +20,7 @@ function Intro() {
 
   return (
     <div className="flex flex-col items-center justify-center space-y-8 px-4 sm:px-8 md:px-16">
-      <h1 className="text-5xl sm:whitespace-nowrap sm:text-6xl md:text-8xl font-bold text-white animated-text">
+      <h1 className="text-5xl sm:whitespace-nowrap sm:text-6xl md:text-8xl font-bold text-white name animated-text">
         Saurav Pant
       </h1>
       <div className="flex flex-wrap items-center justify-center tags-container">
