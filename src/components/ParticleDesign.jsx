@@ -21,7 +21,7 @@ const ParticleDesign = (props) => {
       background: {
         color: {
           value: "none",
-        },
+        }
       },
       fpsLimit: 150,
       interactivity: {
