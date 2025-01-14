@@ -122,11 +122,6 @@ const SkillSection = () => {
               alt="VS Code"
               className="w-16 h-16 object-contain"
             />
-            <img
-              src="images/docker-logo.png"
-              alt="Docker"
-              className="w-16 h-16 object-contain"
-            />
           </div>
         </div>
       </div>
