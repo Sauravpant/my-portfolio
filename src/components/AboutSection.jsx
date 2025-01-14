@@ -35,10 +35,6 @@ const AboutSection = () => {
             using MERN Stack to deepen my understanding of algorithms and improve
             my practical coding skills. My goals include strengthening my
             expertise in the MERN stack and competitive programming.
-            Additionally, I am expanding my knowledge in{" "}
-            <strong> DevOps</strong> and scalable system design to further
-            enhance my technical proficiency and prepare for advanced challenges
-            in full-stack development
           </p>
         </div>
       </div>
