@@ -40,7 +40,7 @@ function Intro() {
           <i className="fab fa-linkedin fa-2x"></i>
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/Sauravpant"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
