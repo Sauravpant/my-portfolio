@@ -5,7 +5,7 @@ const SkillSection = () => {
     <div className="px-6 sm:px-20">
       <div className="text-center mb-8">
         <h2 className="text-4xl font-semibold mb-5">
-          Languages, Frameworks & Tools
+          My Tech Stacks
         </h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-1">
