@@ -33,7 +33,7 @@ function Intro() {
       </div>
       <div className="flex flex-row space-x-6 mt-6 justify-center">
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/sauravpant7"
           target="_blank"
           className="social-icon"
         >
