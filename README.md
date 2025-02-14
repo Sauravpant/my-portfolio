@@ -7,9 +7,5 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 - Skills and Technologies
 - Project showcase with links
 - Responsive design for all devices
-
-## Deployment
-
-The portfolio is live and hosted on [Vercel].https://my-portfolio-sauravpant1s-projects.vercel.app
 ## Technologies Used
 HTML,CSS,Javascript,Tailwind CSS,Bootstrap,React JS
