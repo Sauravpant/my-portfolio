@@ -32,11 +32,6 @@ const SkillSection = () => {
               alt="JavaScript"
               className="w-16 h-16 object-contain"
             />
-            <img
-              src="images/dart-logo.png"
-              alt="Dart"
-              className="w-16 h-16 object-contain"
-            />
           </div>
         </div>
         <div className="flex flex-col items-center p-4 border-2 border-black w-full sm:w-72 md:w-64 lg:w-56 h-auto min-h-[320px]">
