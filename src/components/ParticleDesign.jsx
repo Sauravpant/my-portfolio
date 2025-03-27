@@ -18,6 +18,10 @@ const ParticleDesign = (props) => {
 
   const options = useMemo(
     () => ({
+      fullScreen: {
+        enable: false,
+        zIndex: -1 
+      },
       background: {
         color: {
           value: "none",
