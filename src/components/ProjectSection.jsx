@@ -98,7 +98,7 @@ const ProjectSection = () => {
   ];
 
   return (
-    <section id="projects" className="py-24 px-6 bg-gray-800">
+    <section id="Projects" className="py-24 px-6 bg-gray-800">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
