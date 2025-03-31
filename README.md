@@ -7,5 +7,6 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 - Skills and Technologies
 - Project showcase with links
 - Responsive design for all devices
+-Smooth Animation using Framer motion
 ## Technologies Used
 HTML,CSS,Javascript,Tailwind CSS,Bootstrap,React JS
