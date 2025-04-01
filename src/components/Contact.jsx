@@ -9,10 +9,9 @@ function Contact() {
   const [buttonMessage, setButtonMessage] = useState("Send Message");
   const onSubmit = async (event) => {
     event.preventDefault();
-    console.log("Access Key:", import.meta.env.VITE_ACCESS_KEY);
     setButtonMessage("Sending...");
     const formData = new FormData(event.target);
-    formData.append("access_key", access_key);
+    formData.append("access_key","1cf0335b-8290-4b9d-af47-ba62cb687edd");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
