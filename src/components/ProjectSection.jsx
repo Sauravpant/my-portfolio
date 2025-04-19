@@ -16,10 +16,10 @@ const ProjectCard = ({ title, description, tech, demoImg, link, reverse }) => {
         whileHover={{ scale: 1.02 }}
         className="w-full lg:w-1/2 p-8 bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-700 hover:border-blue-400/50 shadow-xl hover:shadow-blue-500/10 transition-all"
       >
-        <h3 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+        <h3 className="text-2xl md:text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
           {title}
         </h3>
-        <p className="mb-8 text-lg text-gray-300 leading-relaxed">
+        <p className="mb-8 text-lg md:text-xl text-gray-300 leading-relaxed">
           {description}
         </p>
 
@@ -57,7 +57,7 @@ const ProjectCard = ({ title, description, tech, demoImg, link, reverse }) => {
         <motion.img
           src={demoImg}
           alt={`${title} Demo`}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+          className="h-full w-auto object-cover group-hover:scale-110 transition-transform duration-700"
           initial={{ scale: 1.1 }}
           whileInView={{ scale: 1 }}
           viewport={{ once: true }}
@@ -71,12 +71,12 @@ const ProjectCard = ({ title, description, tech, demoImg, link, reverse }) => {
 const ProjectSection = () => {
   const projects = [
     {
-      title: "ATM Management System",
+      title: "SmartChat",
       description:
-        "A C++ based ATM management system for handling user transactions securely with account management features.",
-      tech: ["cpp"],
-      demoImg: "/images/ATM-demo.png",
-      link: "https://github.com/Sauravpant/ATM-Management-System",
+        "A React based AI chatbot that answers user queries.",
+      tech: ["js","react","tailwind"],
+      demoImg: "/images/chat.png",
+      link: "https://github.com/Sauravpant/SmartChat",
     },
     {
       title: "Portfolio",
@@ -88,12 +88,12 @@ const ProjectSection = () => {
       reverse: true,
     },
     {
-      title: "Data Structure Visualizer",
+      title: "ShopCart",
       description:
-        "Interactive visualization tool for common data structures with step-by-step algorithm demonstrations.",
+        "ShopCart is a responsive e-commerce web app with dynamic product listings, category-based browsing, and a smooth cart experience",
       tech: ["js", "react", "redux"],
-      demoImg: "/images/ds-visualizer.png",
-      link: "https://github.com/Sauravpant/Data-Structure-Visualizer",
+      demoImg: "/images/ecommerce.png",
+      link: "https://github.com/Sauravpant/ShopCart",
     },
   ];
 
