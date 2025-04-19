@@ -30,7 +30,8 @@ const AboutSection = () => {
 
         <div className="flex flex-col items-center">
           <motion.img
-            src="../src/assets/images/your-photo.jpg"
+            src="../../images/profile.png
+            "
             alt="Profile"
             className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover mb-8 border-4 border-blue-400/30 shadow-lg hover:shadow-blue-400/20 transition-all duration-300"
             initial={{ scale: 0.9 }}
