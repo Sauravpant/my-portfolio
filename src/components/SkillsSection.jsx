@@ -5,7 +5,14 @@ const SkillSection = () => {
   const skillCategories = [
     {
       title: "Languages",
-      items: ["c-logo", "cpp-logo", "java-logo", "js-logo", "dart-logo"],
+      items: [
+        "c-logo",
+        "cpp-logo",
+        "java-logo",
+        "js-logo",
+        "dart-logo",
+        "typescript-logo",
+      ],
       hoverBorder: "hover:border-blue-400/50",
     },
     {
@@ -22,7 +29,13 @@ const SkillSection = () => {
     },
     {
       title: "Back-End",
-      items: ["nodejs-logo", "mysql-logo", "postgresql-logo"],
+      items: [
+        "nodejs-logo",
+        "mysql-logo",
+        "postgresql-logo",
+        "expressjs-logo",
+        "mongodb-logo",
+      ],
       hoverBorder: "hover:border-blue-400/50",
     },
     {
@@ -50,8 +63,7 @@ const SkillSection = () => {
               whileHover={{ scale: 1.02 }}
               className={`flex flex-col items-center p-4 w-full sm:w-72 md:w-64 lg:w-56 h-auto min-h-[320px] 
                         bg-gray-700/20 rounded-lg border border-gray-600/50 ${category.hoverBorder}
-                        transition-all shadow-md`}
-            >
+                        transition-all shadow-md`}>
               <h3 className="text-3xl font-semibold mb-4 text-white">
                 {category.title}
               </h3>
